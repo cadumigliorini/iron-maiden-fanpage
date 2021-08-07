@@ -1,0 +1,108 @@
+:root{
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ELEMENTOS BASE*/
+
+body{
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+header .im-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+header .im-logo-brasil{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    border-radius: 50px;
+}
+
+header .im-logo{
+    margin-left: -780px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 70px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*ELEMENTO PRINCIPAL*/
+
+.im-principal{
+    height: 500px;
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/00-background.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+.im-principal .im-botoes{
+    margin-top: 40px;
+}
+
+.im-botoes{
+    margin-left: -10px;
+}
+
+.im-principal-container{
+    margin-left: 30px;
+    margin-bottom: 10px;
+
+}
+
+.im-banda{
+    font-size: 30px;
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+.im-integrantes{
+    font-size: 20px;
+    color: #aaa;
+    list-style: none;
+}
+
+.im-botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.im-botao:hover{
+    background-color: rgb(44, 7, 211);
+    color: #fff;
+    transition: .3s ease all;
+}
+
+.im-box-capa{
+    height: 100%;
+    width: 100%;
+    display: block;
+}

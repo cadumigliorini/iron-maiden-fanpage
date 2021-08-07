@@ -1,0 +1,10 @@
+@media screen and (max-width: 700px){
+    header .im-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .im-logo{
+        margin-left: 0;
+    }
+}
